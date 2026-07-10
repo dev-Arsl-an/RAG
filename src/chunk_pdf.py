@@ -6,5 +6,5 @@ def chunk_documents(document):
         chunk_size=500,
         chunk_overlap=100
     )
-    chunks = text_splitter.split_documents([document])
+    chunks = text_splitter.split_documents(document)
     return chunks
